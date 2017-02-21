@@ -1,0 +1,50 @@
+.dragElement {
+    border: 1px solid #DEDEDE;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: grab;
+}
+
+.container {
+    width: 300px;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    width: 100%;
+    background: black !important;
+}
+
+.wrapper > div {
+    background: lightcoral;
+    height: 100px;
+    width: 100px;
+}
+.gu-mirror {
+    background: green;
+    opacity: 0.5;
+}
+.container div, .gu-mirror {
+    /*width: 40%;*/
+    /*height: 163px;*/
+    /*display: inline-block;*/
+    /*margin: 20px;*/
+}
+
+.gu-transit {
+    display: none;
+}
+
+.isDragging {
+    background: dodgerblue !important;
+}
+
+.isOverMe {
+    background: red !important;
+}
