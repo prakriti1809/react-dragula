@@ -48,3 +48,19 @@ body {
 .isOverMe {
     background: red !important;
 }
+
+.tile {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: black;
+    margin: 10px;
+}
+
+.tileHeader {
+    padding: 10px;
+}
+
+.tileContent {
+    margin: 0 auto;
+}
